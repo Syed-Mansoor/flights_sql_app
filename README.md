@@ -60,6 +60,7 @@ Prerequisites
 
 
 
+``` bash
 git clone https://github.com/yourusername/flight-analytics.git
 
 
@@ -69,19 +70,20 @@ git clone https://github.com/yourusername/flight-analytics.git
 
 pip install streamlit mysql-connector-python plotly pandas
 3. Set up your MySQL connection in the db_helper.py file:
-'''
+```python
 self.conn = mysql.connector.connect(
     host='127.0.0.1',
     user='username',
     password='your_password',
     database='your_database_name'
 )
-'''
 
 
 4. Run the Streamlit app:
 
-streamlit run app.py
+` streamlit run app.py`
+
+
 
 # Usage
 ## Navigating the App
@@ -111,3 +113,9 @@ LinkedIn: www.linkedin.com/in/syed-mansoor-88404a1b0
 
 
 # Special thanks to campusx
+
+```python
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("Syed")
