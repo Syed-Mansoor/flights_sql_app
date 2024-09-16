@@ -72,10 +72,15 @@ pip install streamlit mysql-connector-python plotly pandas
 
 
 self.conn = mysql.connector.connect(
+
     host='127.0.0.1',
+
     user='username',
+
     password='your_password',
+
     database='your_database_name'
+    
 )
 4. Run the Streamlit app:
 
