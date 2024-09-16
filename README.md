@@ -2,6 +2,7 @@
 
 
 Developer: Syed Mansoor
+
 Technology Stack: MySQL, Python, Streamlit, Plotly
 
 # Project Overview
@@ -11,7 +12,7 @@ The Flight Analytics Project is an interactive data analytics tool designed to a
 This project utilizes Streamlit for building the user interface, Plotly for dynamic data visualizations, and MySQL for querying flight data.
 
 # Features
-- 1. Check Flights : The Check Flights section allows users to search for available flights between two cities. The following details are displayed:
+1. Check Flights : The Check Flights section allows users to search for available flights between two cities. The following details are displayed:
 
 - Airline: Name of the airline operating the flight.
 - Route: The flight route between the source and destination.
@@ -57,7 +58,12 @@ Prerequisites
 1. Clone the repository to your local machine:
 
 
+
+
 git clone https://github.com/yourusername/flight-analytics.git
+
+
+
 2. Install the required dependencies using pip:
 
 
@@ -95,8 +101,11 @@ streamlit run app.py
 For more information or inquiries about this project, feel free to reach out:
 
 Developer: Syed Mansoor
+
 Email: saeedmansoor56@gmail.com
+
 LinkedIn: www.linkedin.com/in/syed-mansoor-88404a1b0
+
 
 
 # Special thanks to campusx
