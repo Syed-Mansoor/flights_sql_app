@@ -75,7 +75,8 @@ self.conn = mysql.connector.connect(
     user='username',
     password='your_password',
     database='your_database_name'
-)'''
+)
+'''
 
 
 4. Run the Streamlit app:
